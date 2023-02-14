@@ -43,7 +43,6 @@ body, html {
     margin:0 auto;
 }
 
-
 #about
 {
   margin-top: 30px;
@@ -59,3 +58,22 @@ body, html {
   text-align: center; 
 }
 /*about section css end*/
+
+/*sign up section css*/
+.sign-up-form{
+    padding-top: 50px;
+  }
+  
+  .sign-up-form form
+  {
+      display: block;
+      text-align: center;
+  }
+  form
+  {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+  }
+  /*sign up section css end*/
