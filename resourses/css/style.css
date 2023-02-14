@@ -28,3 +28,34 @@ body, html {
     color: white;
   }
   /* w3 schools end*/
+
+  .hero-text h1{
+
+    font-size: 50px;
+  }
+  
+/*about section css*/
+.circle-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin:0 auto;
+}
+
+
+#about
+{
+  margin-top: 30px;
+}
+
+.circle-icon-text
+{
+  text-align: center;
+
+}
+
+#about, h1 {
+  text-align: center; 
+}
+/*about section css end*/
