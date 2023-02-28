@@ -76,26 +76,26 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 #### Potential Member Goals
 
 1. As a potential member, I want to be able to easily be able to navigate throughout the site to find content
-* user initially greeted with hero image and nav bar. Hero image attention grabbing and calls on user to sign up 
-* Nav bar contains links to all main sections of site. Allowing the user to quickly navigate.
-* Nav bar stays on top meing user will never have to scroll up to navigate.
+    * user initially greeted with hero image and nav bar. Hero image attention grabbing and calls on user to sign up 
+    * Nav bar contains links to all main sections of site. Allowing the user to quickly navigate.
+    * Nav bar stays on top meing user will never have to scroll up to navigate.
 
 1.  As a potential member, I can view photos of the gym, so that I can get a feel for the gym before joining.
-* Images displayed in clear and responsive css grid. 
+    * Images displayed in clear and responsive css grid. 
 
 1.  As a potential member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
-* All contact information, hours of operation and location in footer of the main page.
-* contact us link in nav bar.
+    * All contact information, hours of operation and location in footer of the main page.
+    * contact us link in nav bar.
 
 #### Gym Member Goals
 
 1. As a gym member, I can view my workout class timetable, so that I can plan my visits to the gym effectively.
-* Timetable is featured in nav bar to allow user to quickly navigate to it. 
-* Timetable is responsice to allow easy reading on any device.
+    * Timetable is featured in nav bar to allow user to quickly navigate to it. 
+    * Timetable is responsice to allow easy reading on any device.
 
 1. As a gym member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
-* All contact information, hours of operation and location in footer of the main page.
-* contact us link in nav bar.
+    * All contact information, hours of operation and location in footer of the main page.
+    * contact us link in nav bar.
 
 ### Validation
 
