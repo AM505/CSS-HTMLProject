@@ -1,5 +1,8 @@
 # Welcome to big box gym
 
+A site for a ficticious gym called big box gym. 
+View live site here: [Live Site](https://am505.github.io/CSS-HTMLProject/)
+
 ## User Experience (UX)
   
 ### User stories
