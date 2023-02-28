@@ -54,9 +54,10 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+
   }
   /* w3 schools end*/
+
 
   .hero-text h1{
 
@@ -99,16 +100,20 @@ section{
 
 /*gallery section */
 
-#photo{
-    clear:both;
-    line-height: 0;
-    column-count: 2;
-    column-gap:0px;
+.photo-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#photo img{
+  width: 100%;
+}
+
+@media (max-width:720px){ 
+  .photo-grid{
+    grid-template-columns: auto;
   }
-  
-  #photo img{
-    width: 100%;
-  }
+}
 
 /*gallery section end*/
 
@@ -140,6 +145,18 @@ section{
   form input{
     width:80%;
   }
+
+  @media (max-width:720px){
+    form input{
+      width:100%;
+    }
+
+    .sign-up-form{
+      margin:0px 20px;
+      padding: 25px;
+    }
+    
+  }
   /*sign up section css end*/
 
   footer{
@@ -154,15 +171,30 @@ section{
     text-decoration: underline;
   }
 
-
   /* timetable section*/
 
   #timetable{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto;
+    text-align: center;
   }
 
  .item{
-    order:5;  
+    padding: 25px;
+    border: 2px solid black;
+    width:100%;
   }
+
+  .item-header{
+    border-bottom: 2px solid black;
+  }
+  .item-body{
+
+  }
+  @media (max-width:975px){
+    #timetable{
+       grid-template-columns:  auto;
+    }
+  }
+
 /* timetable section end*/
