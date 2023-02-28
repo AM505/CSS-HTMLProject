@@ -23,13 +23,22 @@ The website is designed as one page with links to the septate sections. The webs
 
 The initial wireframes from the design phase can be seen here.
 
-![alt-text]()
+[Wireframes](/resourses/wireframes)
 
 ## Fonts and Colour Scheme
 
 
 ## Images
+All images are from the site [https://unsplash.com/](https://unsplash.com/).
+Ideally images would be all the same aspect ratio. 
 
+## Colour Scheme
+
+The colour scheme was originally a pale red, black and white. Where the text was black. However the contrast was too low and would make the site hard to read, especially on smaller screens or for users with visual impairment.
+Therefore, the text was changed to white on a pale red background. 
+
+This site was used to check accessibility: 
+[https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
 
 ## Features
 
