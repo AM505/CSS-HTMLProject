@@ -1,8 +1,19 @@
 body, html {
     height: 100%;
     width: 100%;
+    color:white;
 }
 
+
+.theme-background-color
+{
+  background-color:  rgb(252, 0, 46) !important;
+  /*important used to override bootstrap styling*/
+}
+
+.theme-text-color{
+  color:rgb(226, 224, 224) !important;
+}
 section{
     padding:60px 0;
     width: 100%;
@@ -12,10 +23,10 @@ section{
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/luis-vidal-FodEsaNZs48-unsplash.jpg");
   
     /* Set a specific height */
-    height: 50%;
+    height: 80%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -45,8 +56,14 @@ section{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: red;
-    margin:0 auto;
+    /*background-color: rgb(242, 92, 120);*/
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.circle-icon i{
+    padding-top: 15px;
 }
 
 #about
@@ -63,7 +80,25 @@ section{
 #about, h1 {
   text-align: center; 
 }
+
+
 /*about section css end*/
+
+
+/*gallery section */
+
+#photo{
+    clear:both;
+    line-height: 0;
+    column-count: 2;
+    column-gap:0px;
+  }
+  
+  #photo img{
+    width: 100%;
+  }
+
+/*gallery section end*/
 
 /*sign up section css*/
 .sign-up-form{
@@ -86,6 +121,24 @@ section{
 
   footer{
     width:100%;
-    background-color: rgb(239, 48, 84);
+    /*background-color: rgb(242, 92, 120);*/
+    text-align: center;
+    padding: 30px 0px;
 
+  }
+
+  footer h2{
+    text-decoration: underline;
+  }
+
+
+  /* timetable section*/
+
+  #timetable{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ .item{
+    order:5;  
   }

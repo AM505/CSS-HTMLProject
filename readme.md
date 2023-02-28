@@ -14,7 +14,43 @@
     1. As a gym member, I can view my workout class timetable, so that I can plan my visits to the gym effectively.
     2. As a gym member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
 
+
+
+# Design of the website
+The website is designed as one page with links to the septate sections. The website was originally going to be multiple pages, however it would have lead to very sparse pages. 
+ 
+## Wireframes
+
+The initial wireframes from the design phase can be seen here.
+
+![alt-text]()
+
+## Fonts and Colour Scheme
+
+
+## Images
+
+
 ## Features
+
+### Navbar
+* From the bootstrap navbar class
+* Uses the bootstrap toggler, so the navbar collapses to a menu button at small screen sizes.
+* Links to relevant sections of page and top of page.
+
+### Hero Image
+* Hero image used to draw user attention and a call to action. 
+* Button links to sign up form
+* Hero image design and code used from W3 schools tutorial
+
+### Gallery
+* Essential for the user to get a feel for the gym.
+* Layed out using bootstrap grid to help with formatting and responsiveness 
+
+
+### Sign up 
+* User sign up form to try to convert web-traffic into members
+
 
 ### Languages Used
 - HTML5
