@@ -210,3 +210,21 @@ footer h2 {
 }
 
 /* timetable section end*/
+
+/* */
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li {
+  display:flex;
+  justify-content: center;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 5px;
+  padding: 5%;
+  color: #ffffff;
+}
