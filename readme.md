@@ -23,9 +23,9 @@ The website is designed as one page with links to the septate sections in the na
 
 The wireframes from the initial design phase can be seen here.
 
-* [desktop](resourses/wireframes/desktopWireframe.png)
-* [mobile](resourses/wireframes/MobileWireframe.png)
-* [tablet](resourses/wireframes/TabletWireframe.png)
+* [desktop](assets/wireframes/desktopWireframe.png)
+* [mobile](assets/wireframes/MobileWireframe.png)
+* [tablet](assets/wireframes/TabletWireframe.png)
 
 ### Fonts and Colour Scheme
 The colour scheme is pale red () with white () text and pale grey for contrast in certain areas. 
