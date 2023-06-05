@@ -42,6 +42,7 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 * From the bootstrap navbar class
 * Uses the bootstrap toggler, so the navbar collapses to a menu button at small screen sizes.
 * Links to relevant sections of page and top of page.
+
 ![alt text](assets/docs/nav.png)
 #### Hero Image
 * Hero image used to draw user attention and a call to action. 
@@ -50,19 +51,28 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 
 ![alt text](assets/docs/header.png)
 
+#### Why Us section
+
+* List of points to motivate user to choose this gym.
+
+![alt text](assets/docs/whyus.png)
+
 #### Gallery
 * Essential for the user to get a feel for the gym.
 * Layed out using bootstrap grid to help with formatting and responsiveness.
+
 ![alt text](assets/docs/gallery.png)
 
 #### Timetable 
 * Allow users to see what classes are occuring and when.
 * Created using responsive css grid.
-![alt text](assets/docs/gallery.png)
+
+![alt text](assets/docs/timetable.png)
 
 #### Sign up
 * A simple form asking for name and email adderess. 
 * User sign up form to try to convert web-traffic into members.
+
 ![alt text](assets/docs/footer.png)
 
 ### Languages Used
@@ -108,8 +118,36 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 
 ### Validation
 
+#### HTML Validator 
 * [HTML Validator](https://validator.w3.org/) was used to validate html during the project.
+
+![alt text](assets/docs/html_validator.png)
+
+There were no errors found, but a segestion use a header for the gallery section or replace the section tag with a div. This change can be made in future.
+
+#### CSS Validator
 * [CSS Validator](https://validator.w3.org/) was used to validate css during the project.
+
+![alt text](assets/docs/css_validator.png)
+
+There were no errors in the css written for this project. There were, however errors in the external minified css from fontawesome 6.2. This can be fixed by reverting to version 5.2 of fontawesome or replacing fontawesome with images. 
+
+
+#### Lighthouse 
+
+* Chrome browser developer tool [lighthouse]() was used to test the page. 
+
+* Desktop:
+
+![alt text](assets/docs/lighthouse_desktop.png)
+
+* Mobile:
+
+![alt text](assets/docs/lighthouse_mobile.png)
+
+For both desktop and mobile the biggest issue with performance was the image sizes and load times. For mobile this was the biggest issue. There are a few potential fixes. 
+1. Media queries to replace the image with a smaller sized image on smaller devices. 
+1. Reduce image size for all devices.
 
 
 ### Responsiveness
