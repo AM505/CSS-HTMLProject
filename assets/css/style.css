@@ -74,13 +74,13 @@ section {
 @media (max-height:530px) {
 
 
-.hero-image {
-height: 100%;
-}
+  .hero-image {
+    height: 100%;
+  }
 
-.hero-text {
-  top: 60%;
-}
+  .hero-text {
+    top: 60%;
+  }
 
 }
 
@@ -226,12 +226,12 @@ footer h2 {
 
 /* */
 
-.social-networks{
+.social-networks {
   text-align: center;
 }
 
 .social-networks li {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
