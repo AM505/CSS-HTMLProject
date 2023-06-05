@@ -155,7 +155,8 @@ form {
   text-align: left;
 }
 
-.sign-up-form h1 {
+.sign-up-form h2 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
