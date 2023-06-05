@@ -32,7 +32,7 @@ The wireframes from the initial design phase can be seen here.
 
 ### Fonts and Colour Scheme
 
-The colour scheme is pale red () with white () text and pale grey for contrast in certain areas.
+The colour scheme is pale red (#f72047) with white (#ffffff) text and pale grey for contrast in certain areas.
 The Roboto font was used throughout the project.
 
 ### Images
