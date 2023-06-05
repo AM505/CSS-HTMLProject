@@ -42,24 +42,28 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 * From the bootstrap navbar class
 * Uses the bootstrap toggler, so the navbar collapses to a menu button at small screen sizes.
 * Links to relevant sections of page and top of page.
-
+![alt text](assets/docs/nav.png)
 #### Hero Image
 * Hero image used to draw user attention and a call to action. 
 * Button links to sign up form
 * Hero image design and code used from W3 schools tutorial
 
+![alt text](assets/docs/header.png)
+
 #### Gallery
 * Essential for the user to get a feel for the gym.
 * Layed out using bootstrap grid to help with formatting and responsiveness.
+![alt text](assets/docs/gallery.png)
 
 #### Timetable 
 * Allow users to see what classes are occuring and when.
 * Created using responsive css grid.
+![alt text](assets/docs/gallery.png)
 
 #### Sign up
 * A simple form asking for name and email adderess. 
 * User sign up form to try to convert web-traffic into members.
-
+![alt text](assets/docs/footer.png)
 
 ### Languages Used
 *  HTML5
