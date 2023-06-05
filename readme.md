@@ -1,6 +1,6 @@
 # Welcome to big box gym
 
-A site for a ficticious gym called big box gym. 
+A site for a fictitious gym called big box gym.
 View live site here: [Live Site](https://am505.github.io/CSS-HTMLProject/)
 
 ## User Experience (UX)
@@ -8,17 +8,20 @@ View live site here: [Live Site](https://am505.github.io/CSS-HTMLProject/)
 ### User stories
 
 #### Potential Member Goals
+
 * As a potential member, I want to be able to easily be able to navigate throughout the site to find content.
 * As a potential member, I can view photos of the gym, so that I can get a feel for the gym before joining.
 * As a potential member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
 
 #### Gym Member Goals
+
 * As a gym member, I can view my workout class timetable, so that I can plan my visits to the gym effectively.
 * As a gym member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
 
 ## Design of the website
+
 The website is designed as one page with links to the septate sections in the nav bar. It also has a link to the sign up section in the hero image. 
- 
+
 ### Wireframes
 
 The wireframes from the initial design phase can be seen here.
@@ -28,23 +31,27 @@ The wireframes from the initial design phase can be seen here.
 * [tablet](assets/wireframes/TabletWireframe.png)
 
 ### Fonts and Colour Scheme
-The colour scheme is pale red () with white () text and pale grey for contrast in certain areas. 
-The Roboto font was used througout the project.
+
+The colour scheme is pale red () with white () text and pale grey for contrast in certain areas.
+The Roboto font was used throughout the project.
 
 ### Images
+
 All images are from the site [https://unsplash.com/](https://unsplash.com/).
 Images were resized to all have the same aspect ratio, so they tessilate in a grid pattern.
-
 
 ### Features
 
 #### Navbar
+
 * From the bootstrap navbar class
 * Uses the bootstrap toggler, so the navbar collapses to a menu button at small screen sizes.
 * Links to relevant sections of page and top of page.
 
 ![alt text](assets/docs/nav.png)
+
 #### Hero Image
+
 * Hero image used to draw user attention and a call to action. 
 * Button links to sign up form
 * Hero image design and code used from W3 schools tutorial
@@ -58,37 +65,42 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 ![alt text](assets/docs/whyus.png)
 
 #### Gallery
+
 * Essential for the user to get a feel for the gym.
 * Layed out using bootstrap grid to help with formatting and responsiveness.
 
 ![alt text](assets/docs/gallery.png)
 
-#### Timetable 
-* Allow users to see what classes are occuring and when.
-* Created using responsive css grid.
+#### Timetable
+
+* Allow users to see what classes are occurring and when.
+* Created using responsive CSS grid.
 
 ![alt text](assets/docs/timetable.png)
 
 #### Sign up
-* A simple form asking for name and email adderess. 
+
+* A simple form asking for name and email address. 
 * User sign up form to try to convert web-traffic into members.
 
 ![alt text](assets/docs/footer.png)
 
 ### Languages Used
-*  HTML5
+
+* HTML5
 * CSS3
 
 ### Frameworks, Libraries & Tools
-* [Bootstrap 4:](https://getbootstrap.com/) For styling and responsive layout. 
+
+* [Bootstrap 4:](https://getbootstrap.com/) For styling and responsive layout.
 * [jQuery](https://jquery.com/) came with Bootstrap to make the navbar responsive.
 * [Google Fonts:](https://fonts.google.com/) Google fonts were used for the 'Roboto' font.
 * [Git](https://git-scm.com/) Git was used for version control commit to Git and Push to GitHub.
 * [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
 * [Balsamiq:](https://balsamiq.com/) Balsamiq was used to create the wireframes during the design process.
 * [Fontawesome:](https://fontawesome.com/) Font awesome was used for the why choose us section icons.
-    
-## Testing 
+
+## Testing
 
 ### User Stories Testing
 
@@ -97,20 +109,20 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 1. As a potential member, I want to be able to easily be able to navigate throughout the site to find content
     * user initially greeted with hero image and nav bar. Hero image attention grabbing and calls on user to sign up 
     * Nav bar contains links to all main sections of site. Allowing the user to quickly navigate.
-    * Nav bar stays on top meing user will never have to scroll up to navigate.
+    * Nav bar stays on top meaning user will never have to scroll up to navigate.
 
-1.  As a potential member, I can view photos of the gym, so that I can get a feel for the gym before joining.
-    * Images displayed in clear and responsive css grid. 
+1. As a potential member, I can view photos of the gym, so that I can get a feel for the gym before joining.
+    * Images displayed in clear and responsive CSS grid. 
 
-1.  As a potential member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
+1. As a potential member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
     * All contact information, hours of operation and location in footer of the main page.
     * contact us link in nav bar.
 
 #### Gym Member Goals
 
 1. As a gym member, I can view my workout class timetable, so that I can plan my visits to the gym effectively.
-    * Timetable is featured in nav bar to allow user to quickly navigate to it. 
-    * Timetable is responsice to allow easy reading on any device.
+    * Timetable is featured in nav bar to allow user to quickly navigate to it.
+    * Timetable is responsive to allow easy reading on any device.
 
 1. As a gym member, I can view the gym's location, hours of operation, and contact information, so that I can plan my visits accordingly.
     * All contact information, hours of operation and location in footer of the main page.
@@ -118,24 +130,25 @@ Images were resized to all have the same aspect ratio, so they tessilate in a gr
 
 ### Validation
 
-#### HTML Validator 
+#### HTML Validator
+
 * [HTML Validator](https://validator.w3.org/) was used to validate html during the project.
 
 ![alt text](assets/docs/html_validator.png)
 
-There were no errors found, but a segestion use a header for the gallery section or replace the section tag with a div. This change can be made in future.
+There were no errors found, but a suggestion use a header for the gallery section or replace the section tag with a div. This change can be made in future.
 
 #### CSS Validator
+
 * [CSS Validator](https://validator.w3.org/) was used to validate css during the project.
 
 ![alt text](assets/docs/css_validator.png)
 
-There were no errors in the css written for this project. There were, however errors in the external minified css from fontawesome 6.2. This can be fixed by reverting to version 5.2 of fontawesome or replacing fontawesome with images. 
+There were no errors in the CSS written for this project. There were, however errors in the external minified CSS from fontawesome 6.2. This can be fixed by reverting to version 5.2 of fontawesome or replacing fontawesome with images.
 
+#### Lighthouse
 
-#### Lighthouse 
-
-* Chrome browser developer tool [lighthouse]() was used to test the page. 
+* Chrome browser developer tool [lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to test the page.
 
 * Desktop:
 
@@ -145,21 +158,21 @@ There were no errors in the css written for this project. There were, however er
 
 ![alt text](assets/docs/lighthouse_mobile.png)
 
-For both desktop and mobile the biggest issue with performance was the image sizes and load times. For mobile this was the biggest issue. There are a few potential fixes. 
-1. Media queries to replace the image with a smaller sized image on smaller devices. 
+For both desktop and mobile the biggest issue with performance was the image sizes and load times. For mobile this was the biggest issue. There are a few potential fixes.
+
+1. Media queries to replace the image with a smaller sized image on smaller devices.
 1. Reduce image size for all devices.
 
-
 ### Responsiveness
+
 Responsiveness was tested using firefox developer tools "Responsive Design Mode".
-The site was also tested on firefox and chrome browsers on desktop and mobile. Unfortunatly was not able to test on safari. 
+The site was also tested on firefox and chrome browsers on desktop and mobile.
 
+### Accessibility
 
-### Accessabiltiy
-
-This site was used to check accessibility: 
+This site was used to check accessibility:
 [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
- Along with firefox's accesibiltiy tools.
+ Along with firefox's accessibility tools.
 
 ### GitHub Pages
 
@@ -167,12 +180,11 @@ To deploy to github pages follow these steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+    * Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
-
 
 ### Forking the GitHub Repository
 
@@ -199,7 +211,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `1000Words-Clone`...
+> Cloning into `CSS-HTMLProject`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
@@ -211,6 +223,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
+
 * [bootstrap 4](https://getbootstrap.com/) for styling and responsive layouts
 * [w3scools](https://www.w3schools.com/howto/howto_css_hero_image.asp) for code on hero image.
 
@@ -222,7 +235,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * All images used in the site from [unsplash](https://unsplash.com/)
 
-
 ### Acknowledgements
+
 * My Mentor for continuous helpful feedback.
 * Tutor support at Code Institute for their support.
